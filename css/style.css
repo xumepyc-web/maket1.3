@@ -149,14 +149,8 @@ main {
     height: 90px;
 
 }
-.blog__image--mobile {
+.blog__image--size {
 margin-top: 50px;
-}
-.blog__image--pc {
-    display: none;
-}
-.blog__image--laptop {
-    display: none;
 }
 .blog__text--laptop {
     display: none;
@@ -187,7 +181,6 @@ margin-top: 50px;
         display: block;
 
     }
-
     .menu__list--call {
         display: block;
         margin-left: auto;
@@ -205,14 +198,7 @@ margin-top: 50px;
     .menu__list--burger {
         margin-left: 24px;
     }
-    .blog__image--mobile {
-        display: none;
-    }
-    .blog__image--pc {
-        display: none;
-    }
-    .blog__image--laptop {
-        display: block;
+    .blog__image--size {
         border-radius: 6px;
         margin-top: 40px;
         margin-bottom: 26px;
@@ -268,14 +254,11 @@ margin-top: 50px;
         margin-left: 16px;
         display: none;
     }
-
     .menu__list--group {
         margin-right: auto;
         margin-left: 21px;
         display: none;
     }
-
-
     .menu__list--divider-firs {
         margin-left: 20px;
         display: none;
@@ -298,10 +281,6 @@ margin-top: 50px;
     .menu__list--chat {
         display: none;
     }
-
-
-
-
     .menu__list--poisk {
         margin-right: 32px;
         margin-left: 8px;
@@ -368,19 +347,12 @@ margin-top: 50px;
         height: 160px;
     }
 
-    .blog__image--pc {
-        display: block;
+    .blog__image--size {
         border-radius: 6px;
         margin-top: 10px;
         margin-bottom: 49px;
     }
     .blog__text--laptop {
-        display: none;
-    }
-    .blog__image--mobile {
-        display: none;
-    }
-    .blog__image--laptop {
         display: none;
     }
     .blog {
