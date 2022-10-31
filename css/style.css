@@ -30,7 +30,7 @@ main {
     margin-left: 21px;
 }
 
-.menu__list--poisk {
+.menu__list--search {
     margin-right: 16px;
     margin-left: 16px;
 }
@@ -163,7 +163,7 @@ main {
 .menu__list--repair--text {
     display: none;
 }
-.menu__list--poisk--text {
+.menu__list--search--text {
     display: none;
 }
 .menu__pc {
@@ -285,7 +285,7 @@ main {
     .menu__list--chat {
         display: none;
     }
-    .menu__list--poisk {
+    .menu__list--search {
         margin-right: 32px;
         margin-left: 8px;
     }
@@ -297,7 +297,7 @@ main {
         display: block;
         margin-left: auto;
     }
-    .menu__list--poisk--text {
+    .menu__list--search--text {
         display: block;
     }
     .menu__list--divider-firs {
