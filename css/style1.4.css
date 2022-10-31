@@ -1,0 +1,133 @@
+*{margin: 0;
+padding: 0;
+}
+
+body {
+
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    width: 320px;
+    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2); ;
+}
+.nav {
+    margin: 0 24px;
+    display: flex;
+    list-style-type: none;
+}
+.nav--search {
+    margin-top: 23px;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 50%;
+    border: none;
+}
+.nav--search:hover {
+    transition-duration: 1s;
+    background: #1403fc;
+}
+.nav--logo {
+    margin-top: 19px;
+    margin-left: 17px;
+}
+.nav--exit {
+    margin-top: 23px;
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 50%;
+    border: none;
+}
+.nav--exit:hover {
+    transition-duration: 1s;
+    background: #1403fc;
+}
+.menu {
+    margin-left: 24px;
+  list-style-type: none;
+}
+.menu__list {
+    margin-bottom: 32px;
+}
+.repair {
+    color: #7E7E82;
+    margin-top: 50px;
+}
+
+
+.info {
+    display: flex;
+    list-style-type: none;
+    margin-left: 24px;
+    margin-top: 236px;
+}
+.info--profile {
+    margin-left: 16px;
+    background: #FF3E79;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+.info--profile:hover {
+    transition-duration: 1s;
+    background: #1403fc;
+}
+.info--chat{
+    margin-left: 16px;
+    background: #FF3E79;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+.info--chat:hover {
+    transition-duration: 1s;
+    background: #1403fc;
+}
+.info--phone:hover {
+    transition-duration: 1s;
+    background: #1403fc;
+}
+.info--phone {
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 50%;
+    border: none;
+}
+
+.mail {
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-bottom: 12px;
+}
+.num {
+    margin-left: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    font-weight: bold;
+}
+.lang {
+    display: flex;
+    list-style-type: none;
+    margin-left: 24px;
+    margin-top: 40px;
+
+
+}
+.lang--ru {
+    color: #7E7E82;
+    margin-right: 7px;
+}
+.lang--en {
+    margin-right: 7px;
+}
