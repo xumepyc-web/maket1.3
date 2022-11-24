@@ -567,7 +567,9 @@ h1 {
   .hide-button img {
     transform: rotate(180deg);
     margin-right: 16px; }
-
+  .hide-button--visible {
+    display: block;
+  }
 .visible-text {
   display: block; }
 
