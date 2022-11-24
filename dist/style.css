@@ -260,7 +260,12 @@ h1 {
   margin-right: 12px;
   border-radius: 50%; }
   .swiper-pagination-bullet:last-child {
-    margin-right: 0; }
+    margin-right: auto;
+  }
+  .swiper-pagination-bullet:first-child {
+    margin-left: auto;
+  }
+
 
 .swiper-pagination-bullet-active {
   background-color: #B5B6BC; }
